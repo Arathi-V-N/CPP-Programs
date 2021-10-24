@@ -11,18 +11,18 @@ int main()
     //Underweight < 18.5
     if (bmi < 18.5)
     {
-        cout << "You are underweight, eat more!!!";
+        cout << "You are underweight, eat more!!!" << endl;
     }
     //Normal - 18.5 - 24.9 
     else if (bmi >= 18.5 && bmi <= 24.9)
     {
-        cout << "You have normal BMI, keep it up!";
+        cout << "You have normal BMI, keep it up!"<< endl;
     }
     //Overweight >25
     else
     {
-        cout << "You are overweight, eat healthy hon.";
+        cout << "You are overweight, eat healthy hon."<< endl;
     }
-        
+     cout << "Your BMI is :" << bmi;
     return 0;
 }
